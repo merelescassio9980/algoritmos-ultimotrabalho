@@ -1,0 +1,36 @@
+Algoritmo "lojaderoupa"
+
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 09/09/2026
+Var
+     nomePeca: caracter
+     preco, quantidade, total, cont: real
+     resposta: logico
+     
+Inicio
+
+     total<-0
+     cont<-0
+     resposta<-verdadeiro
+     
+     enquanto resposta = verdadeiro faca
+
+     escreva("Nome da peça: ")
+     leia(nomePeca)
+     
+     escreva("Preço da peça: ")
+     leia(preco)
+     
+     escreva("Quantidade: ")
+     leia(quantidade)
+     
+     total<-total+(preco*quantidade)
+     
+     escreva("Deseja adicionar alguma peça? (V/F):" )
+     leia(resposta)
+
+     fimenquanto
+     
+     escreva("Valor total: R$", total)
+
+Fimalgoritmo
