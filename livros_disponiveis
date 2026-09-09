@@ -1,0 +1,38 @@
+Algoritmo "livros disponiveis"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 09/09/2026
+Var
+   cont, quantdisp: inteiro
+   disponivel: logico
+   nomeLivro: caracter
+
+
+Inicio
+
+      quantdisp<-0
+
+      para cont de 1 até 5 passo 1 faça
+      
+      escreva("Nome do livro: ")
+      leia(nomeLivro)
+      
+      escreva("O livro está disponivel? (V/F): ")
+      leia(disponivel)
+
+      escreval("ID do Livro: ",cont)
+      escreval("Nome do livro: ", nomeLivro)
+      escreval ("Livro disponível: ", disponivel)
+      
+      se disponivel=verdadeiro então
+      quantdisp<-quantdisp+1
+            fimse
+
+      fimpara
+      
+      escreva("Quantidade de livros disponiveis: ",quantdisp)
+
+
+Fimalgoritmo
