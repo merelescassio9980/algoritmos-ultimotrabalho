@@ -1,13 +1,9 @@
 Algoritmo "cadastro_livro"
-//  
-//  
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Cássio Eduardo Mereles
+
+// Autor(a)    : CÃ¡ssio Eduardo Mereles
 // Data atual  : 9/8/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
       autor: caracter
       cont: inteiro
       resposta: logico
