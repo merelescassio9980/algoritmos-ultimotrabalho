@@ -1,0 +1,28 @@
+Algoritmo "Petshop atendimentos"
+Var
+   animal: caractere
+   dono: caractere
+   servico: caractere
+   valor, total: real
+   quantidade, i: inteiro
+Inicio
+   total <- 0
+   quantidade <- 0
+   i <- 1
+   Enquanto i = 1 faca
+      Escreva("Digite o Nome do animal: ")
+      Leia(animal)
+      Escreva("Digite o Nome do dono: ")
+      Leia(dono)
+      Escreva("Tipo de serviço: ")
+      Leia(servico)
+      Escreva("Valor do serviço: R$ ")
+      Leia(valor)
+      total <- total + valor
+      quantidade <- quantidade + 1
+      Escreval("Deseja cadastrar outro atendimento?1-sim 2-não")
+      Leia(i)
+   FimEnquanto
+   Escreval("Quantidade de atendimentos: ", quantidade)
+   Escreval("Valor total arrecadado: R$ ", total)
+FimAlgoritmo
