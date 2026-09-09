@@ -1,0 +1,22 @@
+Algoritmo "Estoque"
+Var
+   nome: caractere
+   troupa: caractere
+   quantidade: inteiro
+   Pcad: inteiro
+   i: caractere
+Inicio
+   Pcad<- 0
+   Repita
+      Escreva("Nome da roupa: ")
+      Leia(nome)
+      Escreva("Tipo da roupa: ")
+      Leia(troupa)
+      Escreva("Quantidade em estoque: ")
+      Leia(quantidade)
+      Pcad <- Pcad + 1
+      Escreva("Deseja cadastrar outro produto? (s/n): ")
+      Leia(i)
+   Ate i= "n"
+   Escreva("Quantidade de produtos cadastrados: ", Pcad)
+FimAlgoritmo
