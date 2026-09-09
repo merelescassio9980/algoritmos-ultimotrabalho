@@ -1,0 +1,30 @@
+Algoritmo "Vacinacao"
+Var
+   nome,raca: caractere
+   idade: inteiro
+   cachorro, gato, mais5a, i: inteiro
+Inicio
+   cachorro <- 0
+   gato <- 0
+   mais5a <- 0
+   Para i <- 1 ate 7 faca
+      Escreva("Nome do animal: ")
+      Leia(nome)
+      Escreva("Idade: ")
+      Leia(idade)
+      Escreva("Raça(cachorro/gato/outro): ")
+      Leia(raca)
+      Se raca = "cachorro" entao
+         cachorro <- cachorro + 1
+       Se raca = "gato" entao
+         gato <- gato + 1
+        Se idade > 5 entao
+         mais5 <- mais5 + 1
+      FimSe
+       FimSe
+         FimSe
+   FimPara
+   Escreval("Cachorros vacinados: ", cachorro)
+   Escreval("Gatos vacinados: ", gato)
+   Escreval("Animais com mais de 5 anos: ", mais5a)
+FimAlgoritmo
