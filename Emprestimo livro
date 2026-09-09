@@ -1,0 +1,17 @@
+Algoritmo "Emprestimo"
+Var
+   resposta:logico
+   qdias:inteiro
+   aluno,livro:caracter
+Inicio
+      Repita
+      Escreval("Digite o nome do aluno")
+      leia(aluno)
+      Escreval("Digite o nome do livro")
+      leia(livro)
+      Escreval("Quantos dias o livro sera emprestado?")
+      leia(qdias)
+      Escreval("Deseja cadastrar outro livro?verdadeiro ou falso")
+      leia(resposta)
+      ate resposta=falso
+Fimalgoritmo
