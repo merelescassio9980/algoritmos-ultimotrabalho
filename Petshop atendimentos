@@ -23,6 +23,6 @@ Inicio
       Escreval("Deseja cadastrar outro atendimento?1-sim 2-não")
       Leia(i)
    FimEnquanto
-   Escreval("Quantidade de atendimentos: ", quantidade)
-   Escreval("Valor total arrecadado: R$ ", total)
+   Escreva("Quantidade de atendimentos: ", quantidade)
+   Escreva("Valor total arrecadado: R$ ", total)
 FimAlgoritmo
