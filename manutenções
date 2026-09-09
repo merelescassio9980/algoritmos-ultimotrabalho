@@ -1,0 +1,23 @@
+Algoritmo "manutenções"
+Var
+   nome: caractere
+   vsvr, total: real
+   quantidade: inteiro
+   continuar: caractere
+Inicio
+   total <- 0
+   quantidade <- 0
+   continuar <- "s"
+   Enquanto continuar = "s" faca
+      Escreva("Nome do cliente: ")
+      Leia(nome)
+      Escreva("Valor do serviço: R$ ")
+      Leia(vsvr)
+      total <- total + vsvr
+      quantidade <- quantidade + 1
+      Escreval("Deseja cadastrar outro serviço? (s/n): ")
+      Leia(continuar)
+   FimEnquanto
+   Escreval("Quantidade de serviços: ", quantidade)
+   Escreval("Valor total arrecadado: R$ ", total)
+FimAlgoritmo
