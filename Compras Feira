@@ -1,0 +1,23 @@
+Algoritmo "Compras Feira"
+Var
+   nome: caractere
+   preco, subtotal, total: real
+   quantidade: inteiro
+   i: caractere
+Inicio
+   total <- 0
+   Repita
+      Escreva("Nome do produto: ")
+      Leia(nome)
+      Escreva("Preço: ")
+      Leia(preco)
+      Escreva("Quantidade: ")
+      Leia(quantidade)
+      subtotal <- preco * quantidade
+      total <- total + subtotal
+      Escreval("Subtotal: R$ ", subtotal)
+      Escreva("Deseja adicionar outro produto? (s/n): ")
+      Leia(i)
+   Ate i = "n"
+   Escreva("Valor total da compra: R$ ", total)
+FimAlgoritmo
