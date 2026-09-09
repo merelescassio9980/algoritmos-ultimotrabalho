@@ -1,0 +1,27 @@
+Algoritmo "Revisões"
+Var
+   modelo: caractere
+   ano, km, soma, maior100k: inteiro
+   media: real
+   i: inteiro
+
+Inicio
+   soma <- 0
+   maior100k <- 0
+   Para i <- 1 ate 8 faca
+      Escreva("Digite o modelo: ")
+      Leia(modelo)
+      Escreva("Digite o ano: ")
+      Leia(ano)
+      Escreva("Digite a quilometragem: ")
+      Leia(km)
+      soma <- soma + km
+      Se km > 100000 entao
+         maior100k <- maior100 + 1
+      FimSe
+   FimPara
+   media <- soma / 8
+   Escreva("Quantidade de Veículos com mais de 100.000 km: ", maior100)
+   Escreva("Média de quilometragem: ", media)
+
+FimAlgoritmo
