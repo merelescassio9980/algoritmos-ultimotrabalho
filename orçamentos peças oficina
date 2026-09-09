@@ -1,0 +1,37 @@
+Algoritmo "livros disponiveis"
+
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 09/09/2026
+Var
+     cliente: caracter
+     pecas, maoDeObra, total: real
+     resposta: logico
+
+Inicio
+
+     total<-0
+
+     repita
+
+     escreva ("Nome do cliente: ")
+     leia(cliente)
+
+     escreva ("Valor das peças: ")
+     leia(pecas)
+     
+     escreva ("Valor Mão de Obra: ")
+     leia(maoDeObra)
+     
+     escreva("Deseja adicionar mais um item? (V/F): ")
+     leia(resposta)
+     
+     total<-total+maoDeObra+pecas
+     
+     até resposta=falso
+     
+
+     escreva("Valor total: R$",total)
+
+
+
+Fimalgoritmo
