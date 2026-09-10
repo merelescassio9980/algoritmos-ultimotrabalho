@@ -1,0 +1,53 @@
+Algoritmo "preçoProdutos"
+// 
+//  
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 10/09/2026
+Var
+   nomeProd: caracter
+   preco, somaPreco, maiorPreco, menorPreco, mediaPreco: real
+   cont, maisDez: inteiro
+Inicio
+
+      cont<-1
+      maisDez<-0
+      somaPreco<-0
+      
+      para cont de 1 até 3 passo 1 faça
+      
+      escreva("Nome do produto ", cont,": ")
+      leia(nomeProd)
+      
+      escreva("Preço: ")
+      leia(preco)
+      
+      somaPreco<-somaPreco+preco
+      
+      //condição maior preço
+      
+      se (cont=1) ou (preco>maiorPreco) entao
+      maiorPreco<-preco
+      fimse
+      
+      //condição menor preço
+      
+      se (cont=1) ou (preco<menorPreco) entao
+      menorPreco<-preco
+      fimse
+      
+      //condição produto custa mais que R$10
+      
+      se preco>10 entao
+      maisDez<-maisDez+1
+      fimse
+      
+      fimpara
+      
+      mediaPreco<-somaPreco/3
+      
+      escreval ("Maior preço: R$",maiorPreco)
+      escreval ("Menor preço: R$",menorPreco)
+      escreval ("Média dos preços: ", mediaPreco)
+      escreval("Quantidade produtos custando mais que R$10: ",maisDez)
+
+Fimalgoritmo
