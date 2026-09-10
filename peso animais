@@ -1,0 +1,46 @@
+Algoritmo "pesoAnimais"
+// 
+//  
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 10/09/2026
+Var
+
+nome, nomeMaisPes: caracter
+peso, pesoTotal, cont, maisPes: real
+resposta: logico
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   cont<-0
+   pesoTotal<-0
+   maisPes<-0
+   
+   repita
+
+   escreva("Nome do Animal: ")
+   leia (nome)
+   
+   escreva("Peso do animal: (kg)")
+   leia(peso)
+   
+   cont<-cont+1
+   pesoTotal<-pesoTotal+peso
+   
+   se (cont=1) ou (peso>maisPes) entao
+   maisPes<-peso
+   nomeMaisPes<-nome
+   
+   fimse
+   
+   escreva("Deseja cadastrar mais um animal? (V/F): ")
+   leia (resposta)
+   
+   até resposta=falso
+   
+   escreval("Quantidade animais cadastrado: ", cont)
+   escreval("Total Peso de animais: ", pesoTotal, " kg")
+   escreval("Animal mais pesado: ", nomeMaisPes)
+   escreval("Peso animal mais pesado: ",maisPes, " kg")
+
+Fimalgoritmo
