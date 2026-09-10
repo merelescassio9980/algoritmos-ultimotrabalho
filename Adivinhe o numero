@@ -1,0 +1,33 @@
+Algoritmo "adivinheNumero"
+// 
+//  
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 10/09/2026
+Var
+   numSecreto, numDig: inteiro
+Inicio
+
+      numSecreto<-45
+      
+      repita
+      
+      escreval("Adivinhe o número! escolha um número de 1 a 100: ")
+      leia(numDig)
+      
+      se (numDig=45) entao
+      escreval("Parabéns, o número é 45!!")
+      
+      senao
+
+      se (numDig>45) entao
+      escreval ("O número é menor!")
+      
+      senao
+      escreval("O número é maior!")
+
+      fimse
+      fimse
+      
+      até numDig=numSecreto
+      
+Fimalgoritmo
