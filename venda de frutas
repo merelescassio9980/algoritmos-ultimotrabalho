@@ -1,0 +1,41 @@
+Algoritmo "vendaFruta"
+// 
+//  
+// Autor(a)    : Cássio Eduardo Mereles
+// Data atual  : 10/09/2026
+Var
+    nome: caracter
+    preco, peso, total, cont: real
+    resposta: logico
+
+Inicio
+
+      total<-0
+      cont<-0
+      resposta<-verdadeiro
+      
+      enquanto resposta=verdadeiro faca
+
+      escreva("Nome da fruta: ")
+      leia(nome)
+      
+      escreva("Preço: ")
+      leia(preco)
+      
+      escreva("Peso: ")
+      leia(peso)
+      
+      total<-total+(preco*peso)
+      cont<-cont+1
+      
+      escreva("Deseja adicionar mais uma fruta? (V/F)")
+      leia(resposta)
+      
+      fimenquanto
+      
+      escreval("Relatório de vendas: ")
+      escreval("")
+      escreval("Quantidade de vendas: ", cont)
+      escreval("Valor Arrecadado: ", total)
+      
+Fimalgoritmo
