@@ -1,0 +1,11 @@
+Algoritmo "Tabuada"
+Var
+   numero, i, resultado: inteiro
+Inicio
+   Escreva("Digite um número inteiro")
+   Leia(numero)
+   Para i <- 1 ate 10 faca
+      resultado <- numero * i
+      Escreval(numero, " x ", i, " = ", resultado)
+   FimPara
+FimAlgoritmo
