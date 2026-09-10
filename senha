@@ -1,0 +1,13 @@
+Algoritmo "Senha"
+Var
+   senha: inteiro
+Inicio
+   Escreva("Digite a senha: ")
+   Leia(senha)
+   Enquanto senha <> 1234 faca
+      Escreval("Senha incorreta!")
+      Escreva("Digite a senha novamente: ")
+      Leia(senha)
+   FimEnquanto
+   Escreva("Acesso permitido!")
+FimAlgoritmo
