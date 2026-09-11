@@ -13,7 +13,7 @@ Inicio
       maisDez<-0
       somaPreco<-0
       
-      para cont de 1 até 3 passo 1 faça
+      para cont de 1 até 12 passo 1 faça
       
       escreva("Nome do produto ", cont,": ")
       leia(nomeProd)
@@ -43,7 +43,7 @@ Inicio
       
       fimpara
       
-      mediaPreco<-somaPreco/3
+      mediaPreco<-somaPreco/12
       
       escreval ("Maior preço: R$",maiorPreco)
       escreval ("Menor preço: R$",menorPreco)
